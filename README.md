@@ -1,4 +1,5 @@
 # week-6-game
+Not a game though.
 GifTastic with animal look up allowing user to add animals to the list
 
 Instructions
