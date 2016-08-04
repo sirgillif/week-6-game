@@ -61,10 +61,10 @@ $(document.body).on("click",".game",function(){
     		else{
     			$("#gifs").append(imgHolder);
     		}
-    	}).fail(function(err) {
-  				throw err;
-			});
-    });
+    	});
+    }).fail(function(err) {
+  			throw err;
+		});
 });
 var htmlChange
 $(document.body).on("click",".gif",function(){
