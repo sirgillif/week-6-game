@@ -61,7 +61,9 @@ $(document.body).on("click",".game",function(){
     		else{
     			$("#gifs").append(imgHolder);
     		}
-    	});
+    	}).fail(function(err) {
+  				throw err;
+			});
     });
 });
 var htmlChange
