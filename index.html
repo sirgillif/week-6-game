@@ -1,16 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Gif Stuff</title>
+	<title>Gif Games</title>
+
+	<link href="assets/css/reset.css" rel="stylesheet">
 	 <!-- Bootstrap Core CSS -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+
 </head>
 <body>
 	<div class="container">
-		<div id="animals" class="row"></div>
+		<div id="gameButtons" class="row"></div>
 		<div class="row">
-			<div id="gifs" class="col-xs-3 col-"></div>
-			<div id="addNames" class="col-xs-3"></div>
+			<div id="gifs" class="col-xs-3 col-sm-4 col-md-5 col-lg-9"></div>
+			<div id="addNames" class="col-xs-2 col-sm-4 col-md-5 col-lg-3">
+				<h4>Add Your Own Games.</h4>
+				<form>
+					<input type="text" id="game-input">
+					<input type="submit" value="Submit" id="addGame">
+				</form>
+			</div>
 		</div>
 	</div>
 

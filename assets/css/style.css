@@ -1,0 +1,22 @@
+body{
+	background-image: url("../images/background.png");
+}
+#addNames{
+	float: right;
+	background: grey;
+	padding-bottom: 10px;
+}
+.game{
+	margin: 5px;
+}
+#gameButtons{
+	float: left;
+}
+#gifs{
+	background: white;
+	
+}
+.block{
+	margin:10px;
+	float: left;
+}
